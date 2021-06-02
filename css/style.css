@@ -1,0 +1,397 @@
+/* ------------------------------------ */
+/* ▼PC用デザインとして付け足すデザイン */
+/* ------------------------------------ */
+
+
+
+/* 可変色 */
+
+.diviser {
+  background: lightblue;
+  height: 500px;
+}
+
+/* pc-header */
+
+header.sp-head, .sp-t-box {
+  display: none;
+}
+
+.pc-t-img {
+  background: url(../images/kv03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 642px;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.top-box {
+  text-align: center;
+  color: #fff;
+  border: 10px solid;
+  width: 367px;
+  height: 507px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 4% auto;
+}
+
+.t-logo {
+  margin: 52px 0 36px;
+}
+
+p.ttl.t-big {
+  font-size: 58px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.top-txt p.ttxs {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.top-txt p.ttm {
+  font-size: 18px;
+  padding-bottom: 14px;
+  font-weight: 600;
+}
+
+.top-tt-s {
+  margin-bottom: 10px;
+}
+
+.top-tt-s p.ttxs {
+  font-size: 10px;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.top-arrow {
+  width: 60px;
+  height: 60px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  margin: 30px auto 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-l-area {
+  padding: 30px 0;
+  text-align: center;
+}
+
+ul.t-nav {
+  padding: 2px 0;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+ul.t-nav a {
+  color: #303030;
+}
+
+li.nav-titl {
+  display: inline-block;
+  margin: 0 20px;
+  /*padding: 25px 0;*/
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.ti-color {
+	display: inline-block;
+  padding: 25px 0;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+}
+
+.ti-color:hover {
+	cursor: pointer;
+	color: #e48217;
+}
+
+span.tit-c {
+  font-weight: 600;
+}
+
+/* bs-block */
+
+.bs-section {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.bs-block {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.bs-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+h2.ttl.t-big-s {
+  font-size: 58px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.bs-content p.ttm {
+  color: #ccc;
+  font-weight: 400;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.bs-content p.ttxs {
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+a.bs-btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 44px;
+  font-size: 14px;
+  font-weight: 600;
+  background: #e48217;
+  letter-spacing: 1px;
+}
+
+/* third-section */
+
+.third-section {
+  width: auto;
+  height: auto;
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.th-top {
+  display: inline-block;
+  padding: 30px 10px 50px;;
+}
+
+h2.look {
+  color: #303030;
+  font-size: 30px;
+  font-style: oblique;
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+h2.look-s {
+  font-size: 11px;
+  padding-top: 1.5em;
+  position: relative;
+}
+
+h2.look-s:before {
+  width: 60px;
+  border-top: 1px solid;
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+.third-img {
+  padding: 0 60px;
+  position: relative;
+}
+
+img.th-back {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.square {
+  display: inline-block;
+  background: #e48217;
+  padding: 25px 15px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.s-inner {
+  padding: 22px 15px;
+}
+
+.s-inner p.ttxs {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.s-inner p.tts {
+  font-size: 37px;
+  font-style: oblique;
+  letter-spacing: 2px;
+}
+
+/* fourth-section */
+
+.online-shop-sp {
+  display: none;
+}
+
+.fourth-section {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.f-contents {
+  padding: 0 14%;
+  overflow: hidden;
+}
+
+.f-box {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.f-c-item {
+  width: 25%;
+  height: auto;
+  margin: 0 0 10px 10px;
+  position: relative;
+}
+
+img.fo-img {
+  margin-left: 5px;
+  padding: 0 10px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.f-c-item {
+  width: 25%;
+  height: auto;
+  margin: 0 0 10px 10px;
+  position: relative;
+}
+
+.f-c-item a {
+  display: inline-block;
+}
+
+.f-c-item img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.f-txt {
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.f-txt h3.ttxs {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 13px 20px 9px;
+}
+
+.f-txt a {
+  color: #303030;
+}
+
+a.f-t-link {
+  display: inline-block;
+  transition: all .3s ease 0s;
+  text-decoration: none;
+  border: 4px solid #000;
+}
+
+a.f-t-link:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #e48217;
+  border: none;
+}
+
+.online-shop {
+  padding-bottom: 60px;
+}
+
+/* footer */
+
+.f-sp-only {
+  display: none;
+}
+
+footer.f-block {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+ul.t-nav.f-li {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.f-e-inner {
+  padding: 65px 0;
+}
+
+.f-e-item a {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+img.ff-img {
+  width: 50%;
+}
+
+p.ttxs.f-copy {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 32px;
+}
+
+.f-e-item-s {
+  margin-bottom: 24px;
+}
+
+.f-e-item-s a {
+  display: inline-block;
+}
+
+.g-btn {
+  margin-left: 10px;
+}

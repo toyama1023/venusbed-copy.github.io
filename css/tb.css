@@ -1,0 +1,109 @@
+/* -------------------------------------------- */
+/* ▼タブレット用デザインとして付け足すデザイン */
+/* -------------------------------------------- */
+
+
+
+
+/* 可変色 */
+
+.diviser {
+  background: lightgreen;
+  height: 500px;
+}
+
+/* tab-header */
+
+header.sp-head, .sp-t-box {
+  display: none;
+}
+
+.top-box {
+  text-align: center;
+  color: #fff;
+  border: 10px solid;
+  width: 367px;
+  height: 507px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 70px auto;
+}
+
+/* bs-block */
+
+h2.ttl.t-big-s {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.bs-content p.ttm {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+.bs-content p.ttxs {
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* third-section */
+
+.third-section {
+  width: auto;
+  height: auto;
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.th-top {
+  display: inline-block;
+  padding: 30px 10px 45px;
+}
+
+.third-img {
+  padding: 0 40px;
+  position: relative;
+}
+
+/* fourth-section */
+
+.online-shop-sp {
+  display: none;
+}
+
+.fourth-section {
+  padding-top: 60px;
+}
+
+.f-contents {
+  padding: 0 7%;
+}
+
+.f-txt h3.ttxs {
+  font-size: 12px;
+  padding: 10px 14px 6px;
+}
+
+img.fo-img {
+  margin-left: 6px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding: 0 5px;
+}
+
+/* footer */
+
+.f-sp-only {
+  display: none;
+}
